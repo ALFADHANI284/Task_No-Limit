@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #ccc !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Efek saat tombol diklik*/
+button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px #ccc !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Scroll bar*/
+body {
+  scrollbar-color: #000000 #F5F5F5; 
+  scrollbar-width: thin;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar {
+  width: 10px;  
+  height: 5px;  
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-track {
+  background: #F5F5F5; 
+  border-left: 2px solid #000000; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 0px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #333333; 
 }
