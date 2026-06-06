@@ -2,7 +2,7 @@
 
 Dashboard visualisasi data interaktif yang menampilkan pertumbuhan populasi Amerika Serikat dari tahun 2012 hingga 2016. Dibangun menggunakan React dan Recharts, menampilkan estetika desain neo-brutalis dan monokrom yang tegas.
 <p align="center">
-  <img src="populationDashboard.png" alt="Screenshot US Population Dashboard" width="100%">
+  <img src="PopulationDashboard.png" alt="Screenshot US Population Dashboard" width="100%">
 </p>
 
 [Lihat Demo Langsung di Sini](https://task-no-limit.vercel.app/)
